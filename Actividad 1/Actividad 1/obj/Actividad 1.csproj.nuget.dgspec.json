@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sersanmor\\Desktop\\Si\\Proyecto\\Actividad 1\\Actividad 1\\Actividad 1.csproj": {}
+    "C:\\Users\\sersanmor\\Desktop\\Git\\Actividad-1\\Actividad 1\\Actividad 1\\Actividad 1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sersanmor\\Desktop\\Si\\Proyecto\\Actividad 1\\Actividad 1\\Actividad 1.csproj": {
+    "C:\\Users\\sersanmor\\Desktop\\Git\\Actividad-1\\Actividad 1\\Actividad 1\\Actividad 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sersanmor\\Desktop\\Si\\Proyecto\\Actividad 1\\Actividad 1\\Actividad 1.csproj",
+        "projectUniqueName": "C:\\Users\\sersanmor\\Desktop\\Git\\Actividad-1\\Actividad 1\\Actividad 1\\Actividad 1.csproj",
         "projectName": "Actividad 1",
-        "projectPath": "C:\\Users\\sersanmor\\Desktop\\Si\\Proyecto\\Actividad 1\\Actividad 1\\Actividad 1.csproj",
+        "projectPath": "C:\\Users\\sersanmor\\Desktop\\Git\\Actividad-1\\Actividad 1\\Actividad 1\\Actividad 1.csproj",
         "packagesPath": "C:\\Users\\sersanmor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sersanmor\\Desktop\\Si\\Proyecto\\Actividad 1\\Actividad 1\\obj\\",
+        "outputPath": "C:\\Users\\sersanmor\\Desktop\\Git\\Actividad-1\\Actividad 1\\Actividad 1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
