@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sersanmor\\Desktop\\Git\\Actividad-1\\Actividad 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97C83D85-2976-F3A8-7CB6-D859C90A1B08}|Actividad 1\\Actividad 1.csproj|c:\\users\\sersanmor\\desktop\\git\\actividad-1\\actividad 1\\actividad 1\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C83D85-2976-F3A8-7CB6-D859C90A1B08}|Actividad 1\\Actividad 1.csproj|solutionrelative:actividad 1\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\sersanmor\\Desktop\\Git\\Actividad-1\\Actividad 1\\Actividad 1\\Persona.cs",
+              "RelativeDocumentMoniker": "Actividad 1\\Persona.cs",
+              "ToolTip": "C:\\Users\\sersanmor\\Desktop\\Git\\Actividad-1\\Actividad 1\\Actividad 1\\Persona.cs",
+              "RelativeToolTip": "Actividad 1\\Persona.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T17:14:43.919Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
