@@ -9,5 +9,21 @@ namespace Actividad_1
         public string nombre;
         public int edad;
         public string Dni;
+        //Constructor
+        public string Nombre
+        {
+            get { return Nombre; }
+            set { Nombre = value; }
+        }
+        public int Edad
+        {
+            get { return Edad; }
+            set { Edad = value; }
+        }
+        public string DNI
+        {
+            get { return DNI; }
+            set { DNI = value; }
+        }
     }
 }
