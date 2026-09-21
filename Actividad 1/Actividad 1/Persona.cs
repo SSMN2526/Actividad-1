@@ -25,5 +25,11 @@ namespace Actividad_1
             get { return DNI; }
             set { DNI = value; }
         }
+        //Metodo
+        public string MostrarDatos()
+        {
+            string datos = $"{Nombre} {Edad} {DNI}";
+            return datos;
+        }
     }
 }
