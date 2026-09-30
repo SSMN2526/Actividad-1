@@ -42,10 +42,22 @@ namespace Actividad_1
         {
             return $"Nombre: {nombre}, DNI: {dni}, Edad: {edad}";
         }
-
+        public bool EsMayorDeEdad()
+        {
+            return edad >= 18;
+        }
         public static void Main(string[] args)
         {
-            Persona p = new Persona("Ana",2131364, 25);
+            Persona p = new Persona("Ana", "2131364B", 25);
+
+            if (p.EsMayorDeEdad())
+            {
+                Console.WriteLine($"{p.Nombre} es mayor de edad");
+            }
+            else
+            {
+                Console.WriteLine($"{p.Nombre} es menor de edad");
+            }
 
             Console.WriteLine($"Antes: {p.Nombre}, {p.Edad}");
 
@@ -54,6 +66,9 @@ namespace Actividad_1
 
             Console.WriteLine($"Después: {p.Nombre}, {p.Edad}");
         }
+<<<<<<< func2des2
+=======
 
+>>>>>>> develop
     }
 }
