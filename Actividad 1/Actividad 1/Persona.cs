@@ -12,6 +12,13 @@ namespace Actividad_1
         public string dni;
         public int edad;
 
+        public Persona(string nombre, string dni, int edad)
+        {
+            this.nombre = nombre;
+            this.dni = dni;
+            this.edad = edad;
+        }
+
         public string Nombre
         {
             get { return nombre; }
@@ -25,11 +32,27 @@ namespace Actividad_1
         public int Edad
         {
             get { return edad; }
-            set { edad = value; }
+            set
+            {
+                if (value >= 0)
+                    edad = value;
+            }
         }
         public string MostrarDatos()
         {
             return $"Nombre: {nombre}, DNI: {dni}, Edad: {edad}";
+        }
+
+        public static void Main(string[] args)
+        {
+            Persona p = new Persona("Ana",2131364, 25);
+
+            Console.WriteLine($"Antes: {p.Nombre}, {p.Edad}");
+
+            p.Nombre = "María";
+            p.Edad = 30;
+
+            Console.WriteLine($"Después: {p.Nombre}, {p.Edad}");
         }
 
     }
