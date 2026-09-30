@@ -18,6 +18,7 @@ namespace Actividad_1
             this.dni = dni;
             this.edad = edad;
         }
+
         public string Nombre
         {
             get { return nombre; }
@@ -31,7 +32,11 @@ namespace Actividad_1
         public int Edad
         {
             get { return edad; }
-            set { edad = value; }
+            set
+            {
+                if (value >= 0)
+                    edad = value;
+            }
         }
         public string MostrarDatos()
         {
@@ -61,5 +66,9 @@ namespace Actividad_1
 
             Console.WriteLine($"Después: {p.Nombre}, {p.Edad}");
         }
+<<<<<<< func2des2
+=======
+
+>>>>>>> develop
     }
 }
