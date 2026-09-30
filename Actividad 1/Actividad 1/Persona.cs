@@ -25,12 +25,17 @@ namespace Actividad_1
         public int Edad
         {
             get { return edad; }
-            set { edad = value; }
+            set
+            {
+                if (value >= 0)
+                    edad = value;
+            }
         }
         public string MostrarDatos()
         {
             return $"Nombre: {nombre}, DNI: {dni}, Edad: {edad}";
         }
+
 
     }
 }
